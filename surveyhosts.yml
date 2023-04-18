@@ -1,0 +1,5 @@
+---
+- name: Hello Git
+  hosts: "{{ host }}"
+  tasks:
+    - action: ping
